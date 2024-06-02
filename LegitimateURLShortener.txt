@@ -295,6 +295,7 @@ $removeparam=irclickid
 $removeparam=irclicid
 $removeparam=intcmp
 $removeparam=sourceid,domain=google.*
+$removeparam=ie,domain=google.*
 $doc,removeparam=/^sharedid=.*$/i
 $removeparam=affiliates_ad_id
 $removeparam=campaign_id,domain=kochava.com|unisportstore.*
