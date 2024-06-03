@@ -1,6 +1,6 @@
 ! Title: ➗ Actually Legitimate URL Shortener Tool
 ! Version: 2024-06-02
-! Expires: 12 hours
+! Expires: 1 year
 ! Homepage: https://github.com/4G3NT/adfilt
 
 ! 🗺️ ——— General remove rules ——— 🗺️ !
@@ -4372,3 +4372,6 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 @@|wss://$removeparam
 !#endif
 !#endif
+
+! NG
+$removeparam=xmt,domain=threads.net
