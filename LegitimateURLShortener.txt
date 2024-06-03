@@ -288,7 +288,6 @@ $removeparam=CMP
 
 $doc,removeparam=/^OCID=.*$/i,domain=youtube.com|reiseauskunft.bahn.de|msn.com
 !#if adguard
-@@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 !#endif
 $removeparam=tduid,domain=tradedoubler.com
 $removeparam=irclickid
